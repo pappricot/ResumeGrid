@@ -1,0 +1,123 @@
+/* variables */
+:root {
+  --primary: #ffc636;
+  --secondary: #6c8aaf;
+}
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+/* base styles */
+body {
+  overflow-x: hidden;
+  font-family: 'PoiretOne Regular';
+}
+.button {
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--secondary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.button:hover {
+  color: var(--primary);
+}
+input,
+textarea {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary);
+  color: var(--primary);
+}
+/* fonts  */
+@font-face {
+  font-family: 'PoiretOne Regular';
+  src: url('assets/fonts/PoiretOne-Regular.ttf');
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--secondary);
+  font-weight: normal;
+}
+p,
+a,
+li {
+  color: var(--secondary);
+}
+h1,
+h3 {
+  font-size: 1.2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.1em;
+}
+.leading {
+  font-size: 1.1em;
+}
+
+/* mobile styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.site-nav {
+  margin: 0 20px;
+}
+.site-nav ul {
+  display: none;
+}
+.site-nav h1 {
+  grid-column: 1/4;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--primary);
+}
+#welcome {
+  padding: 0 20px 20px 20px;
+}
+.welcome-text {
+  grid-column: 1/6;
+}
+.welcome-image {
+  grid-column: 6/9;
+}
+.welcome-image img {
+  width: 300%;
+}
+.welcome-text a {
+  margin: 20px 0;
+}
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+}
+
+/* large tablets and latops */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* desktops and beyond */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
