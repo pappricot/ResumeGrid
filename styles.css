@@ -201,7 +201,7 @@ footer img {
 /* small tablet styles */
 @media screen and (min-width: 620px) {
   .welcome-text {
-    grid-column: 1/5;
+    grid-column: 1/4;
   }
   .welcome-image {
     grid-column: 5/9;
@@ -264,6 +264,7 @@ footer img {
 
   .welcome-text {
     align-self: center;
+    grid-column: 1/4;
   }
 
   #welcome {
