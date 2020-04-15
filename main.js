@@ -22,8 +22,6 @@ function contact(e) {
     // Add Input Name and value followed by a line break
     message += target[i].name + ': ' + target[i].value + '\r\n'
   }
-  // Modify the hidden body input field that is required for the mailto: scheme
-  target.elements['body'].value = message
 
   // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
   this.submit()
