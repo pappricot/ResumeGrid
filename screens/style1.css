@@ -1,0 +1,45 @@
+/* base style */
+
+.image {
+  position: relative; /* To help the image + text element to get along with the rest of the page*/
+  text-align: center;
+}
+
+.project-title {
+  position: absolute;
+  justify-content: center;
+  color: white;
+  letter-spacing: -1px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+#button-project a:nth-child(3) {
+  grid-row: 2;
+}
+
+.project1 {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .image img {
+    width: 100%;
+  }
+  .project-title {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: 0;
+  }
+}

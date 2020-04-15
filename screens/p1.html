@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../styles.css" />
     <script src="../main.js"></script>
+    <link rel="stylesheet" href="style1.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="site-nav grid" id="project1">
       <h5 class="button" onclick="goBack()">Go Back</h5>
-      <h1>Pappricot here, hello there!</h1>
+      <h1>Projects</h1>
 
       <ul>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -18,6 +19,31 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <h1 id="project1">1</h1>
+
+    <section id="portfolio" class="grid project1">
+      <div class="welcome-text">
+          <p class="leading">
+              Technology used:
+              React Native, Node, Redux, Redux-Saga, Firebase
+          </p>
+          <p>
+            A women telehealth app that connects patients to OBGYNs
+          </p>
+        </ul>
+
+        <div class="button-wrapper">
+          <a href="https://apps.apple.com/us/app/kliit-womens-health-expert/id1487436865" class="button" id="button-project">Download iOS</a>
+          <a href="https://play.google.com/store/apps/details?id=com.klit&hl=en_US" class="button" id="button-project">Download Android</a>
+          <a href="https://github.com/pappricot/kliit" class="button" id="button-project">Checkout Github</a>
+        </div>
+      </div>
+      <div class="welcome-image image img">
+        <img src="../assets/imageHeader2.png" alt="background-image" />
+        <a href="https://github.com/pappricot/kliit">
+         <h2 class="project-title">Kliit Health</h2 class="project1">
+        </a>
+      </div>
+    </section>
+   
   </body>
 </html>
