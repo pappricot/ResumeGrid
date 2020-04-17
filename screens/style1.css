@@ -52,4 +52,37 @@
   .image2 img {
     width: 50%;
   }
+  .image2 {
+    grid-column: 2/5;
+  }
+  .welcome {
+    grid-column: 5/9;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .image1 img,
+  .image2 img {
+    width: 80%;
+  }
+  .image2 {
+    grid-column: 2/5;
+  }
+  .welcome {
+    grid-column: 6/9;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .image1 img,
+  .image2 img {
+    width: 100%;
+  }
+  .image2 {
+    grid-column: 1/4;
+  }
+
+  .welcome {
+    grid-column: 6/9;
+  }
 }
