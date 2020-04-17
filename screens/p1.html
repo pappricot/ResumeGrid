@@ -9,10 +9,8 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="site-nav grid" id="project1">
+    <nav class="site-nav grid" id="project-page">
       <h5 class="button" onclick="goBack()">Go Back</h5>
-      <h1>Projects</h1>
-
       <ul>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -20,30 +18,61 @@
       </ul>
     </nav>
 
-    <section id="portfolio" class="grid project1">
+    <section id="portfolio" class="grid project-page">    
       <div class="welcome-text">
+          <h1 class="project-name">Kliit Health</h1>
           <p class="leading">
               Technology used:
               React Native, Node, Redux, Redux-Saga, Firebase
           </p>
+          <br />
           <p>
             A women telehealth app that connects patients to OBGYNs
           </p>
         </ul>
 
         <div class="button-wrapper">
-          <a href="https://apps.apple.com/us/app/kliit-womens-health-expert/id1487436865" class="button" id="button-project">Download iOS</a>
-          <a href="https://play.google.com/store/apps/details?id=com.klit&hl=en_US" class="button" id="button-project">Download Android</a>
-          <a href="https://github.com/pappricot/kliit" class="button" id="button-project">Checkout Github</a>
+          <div class="wrap-first-two-buttons">
+            <a href="https://apps.apple.com/us/app/kliit-womens-health-expert/id1487436865" class="button button-project">Download iOS</a>
+            <a href="https://play.google.com/store/apps/details?id=com.klit&hl=en_US" class="button button-project">Download Android</a>
+          </div>
+          <a href="https://github.com/pappricot/kliit" class="button button-project">Checkout Github</a>
         </div>
       </div>
-      <div class="welcome-image image img">
+      <div class="image1">
         <img src="../assets/imageHeader2.png" alt="background-image" />
-        <a href="https://github.com/pappricot/kliit">
-         <h2 class="project-title">Kliit Health</h2 class="project1">
-        </a>
       </div>
     </section>
+    <br /><br /><br /><br /><br /><br />
+    <section id="portfolio" class="grid project-page">
+        <div class="image2">
+          <img src="../assets/imageHeader2.png" alt="background-image" />
+        </div>
+
+        <div class="welcome">
+            <h1 class="project-name">Nabe Dish</h1>
+            <p class="leading">
+                Technology used:
+                <br />
+                <ul>
+                  <li>
+                      Design: Adobe XD
+                  </li>
+                  <li>
+                      Stacks: React Native, Node, Redux, Redux-Saga, Firebase
+                  </li>
+                </ul>
+                
+            </p>
+            <br />
+            <p>
+              Initial version of app for food delivery and catering between neighbors
+            </p>
+          </ul>
+          <br />
+         <p>*** In progress</p>
+        </div>
+      </section>
    
   </body>
 </html>
