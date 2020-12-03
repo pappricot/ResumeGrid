@@ -146,6 +146,8 @@ h4 {
 
 #contact {
   padding: 30px 20px;
+  background-image: url("assets/footer_image.jpg");
+  background-size: cover;
 }
 
 #contact h3,
