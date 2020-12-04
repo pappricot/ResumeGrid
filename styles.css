@@ -390,3 +390,35 @@ footer img {
       background-position: 200% center;
     }
   }
+
+/* cloud */
+  .cloud {
+    bottom:15%;
+    position:relative;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+  }
+
+  @-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 20%;}
+    100%{ left: 0;}
+}
+
+.cloud2 {
+  bottom:15%;
+  position:relative;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: fly;
+  -webkit-animation-duration: 10s;
+}
+
+@-webkit-keyframes fly {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 50px;
+  }
+}
